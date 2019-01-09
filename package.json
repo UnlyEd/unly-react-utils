@@ -1,0 +1,44 @@
+{
+  "name": "unly-react-utils",
+  "version": "1.0.0",
+  "description": "Library of tools to help and improve react development",
+  "main": "index.js",
+  "author": "unlyEd",
+  "license": "MIT",
+  "repository": "https://github.com/UnlyEd/unly-react-utils.git",
+  "bugs": {
+    "url": "https://github.com/UnlyEd/unly-react-utils/issues"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>enzyme.config.js"
+  },
+  "homepage": "https://github.com/UnlyEd/unly-react-utils",
+  "scripts": {
+    "lint": "eslint . --cache --fix",
+    "test:once": "NODE_ENV=test jest",
+    "test": "NODE_ENV=test jest",
+    "coverage": "NODE_ENV=test jest --coverage",
+    "build": "babel src --out-file index.js && babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14",
+    "eslint-plugin-react": "7.12.3",
+    "jest": "23.6.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "peerDependencies": {
+    "react": ">= 15.x.x",
+    "react-dom": ">= 15.x.x"
+  }
+}
