@@ -1,4 +1,4 @@
-# UnlyUtilsReact
+# unly-utils-react
 
 This project is a transversal project, tools to help and improve react development
 
@@ -7,17 +7,17 @@ Install:
 npm or yarn
 
 ```
-    npm install https://github.com/UnlyEd/unly-react-utils.git
+    npm install https://github.com/UnlyEd/unly-utils-react.git
 ```
 
 Use:
 
 ```
-import { SafeHTML } from 'unly-react-utils';
+import { SafeHTML } from 'unly-utils-react';
 
 or
 
-import SafeHTML from 'unly-react-utils/lib';
+import SafeHTML from 'unly-utils-react/lib';
 ```
 
 ### React Components
