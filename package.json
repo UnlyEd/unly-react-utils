@@ -18,7 +18,9 @@
     "test:once": "NODE_ENV=test jest",
     "test": "NODE_ENV=test jest",
     "coverage": "NODE_ENV=test jest --coverage",
-    "build": "babel src --out-file index.js && babel src --out-dir lib"
+    "build": "babel src --out-file index.js && babel src --out-dir lib",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -26,19 +28,23 @@
     "@babel/preset-env": "7.2.3",
     "@babel/preset-react": "7.0.0",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "23.6.0",
+    "babel-jest": "24.0.0",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14",
     "eslint-plugin-react": "7.12.3",
-    "jest": "23.6.0",
+    "jest": "24.0.0",
     "react": "16.7.0",
     "react-dom": "16.7.0"
   },
   "peerDependencies": {
     "react": ">= 15.x.x",
     "react-dom": ">= 15.x.x"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.248.0"
   }
 }
