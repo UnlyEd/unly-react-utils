@@ -29,11 +29,11 @@
     "babel-jest": "23.6.0",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
-    "eslint": "4.19.1",
+    "eslint": "6.0.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14",
     "eslint-plugin-react": "7.12.3",
-    "jest": "23.6.0",
+    "jest": "25.0.0",
     "react": "16.7.0",
     "react-dom": "16.7.0"
   },
